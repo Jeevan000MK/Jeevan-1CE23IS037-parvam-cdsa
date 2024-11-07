@@ -9,3 +9,8 @@ int main()
     return 0;
 
 }
+
+long fact(int no){
+    if(no<=1)return (long)1;
+    return no*fact(no-1);
+}
